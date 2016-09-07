@@ -2,7 +2,7 @@
 <nav class="z-max">
     <ol>
         {% for link in site.data.nav %}
-            <li><a href="{{ link.url }}" class="tooltip"> <span>{{ link.title }}</span></a></li>
+            <li><a href="{{ site.baseurl }}/{{ link.url }}" class="tooltip"> <span>{{ link.title }}</span></a></li>
         {% endfor %}
     </ol>
 </nav>
