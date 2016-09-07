@@ -6,7 +6,7 @@ heading: "Why?"
 
 If this neighborhood has an average crime rate, and if it’s one of the best public investments in town, and if displacement of its residents won’t solve poverty, and if its residents actually do care; why do these false neighborhood characterizations continue?
 
-<h3 class="pv4 bt bb b--black-70 black-70 mw6 center f2 fw3 call-out">If you go looking for failure, you’re bound to find it.</h3>
+<h3 class="pv4 bt bb b--black-70 black-70 mw6 center f3 f2-ns fw3 call-out">If you go looking for failure, you’re bound to find it.</h3>
 
 Many have been looking too long and too hard for failure in this neighborhood. This approach is used so commonly, even some residents now look for what’s wrong with their own neighborhood. Their questions continually ask what’s wrong in this neighborhood, rather than what’s strong.
 
@@ -15,7 +15,7 @@ Many have been looking too long and too hard for failure in this neighborhood. T
 
 The people of this neighborhood need approaches that ask better questions if they want to find better answers for their future.
 
-<h3 class="pv4 bt bb b--black-70 black-70 mw6 center f2 fw3 call-out">Current approaches to evaluating neighborhoods are insufficient.</h3>
+<h3 class="pv4 bt bb b--black-70 black-70 mw6 center f3 f2-ns fw3 call-out">Current approaches to evaluating neighborhoods are insufficient.</h3>
 
 Residents agree this neighborhood should be walkable, but this neighborhood is already one of the most walkable neighborhoods in the Lincoln. Tracking progress with walkability doesn’t provide much insight about this neighborhood’s progress.
 
@@ -25,7 +25,7 @@ For example, Lincoln Community Indicator 27 for the affordable housing benchmark
 
 What is success at the neighborhood level?
 
-<h3 class="pv4 bt bb b--black-70 black-70 mw6 center f2 fw3 call-out">neighborhood success  = <br>  when people choose to stay</h3>
+<h3 class="pv4 bt bb b--black-70 black-70 mw6 center f3 f2-ns fw3 call-out">neighborhood success  = <br>  when people choose to stay</h3>
 
 The word choose is emphasized because many residents are not staying here by choice. They are staying because there's little else they could afford. Many would move out of the neighborhood if they were allowed to or when they have the means to do so; in some cases, simply to be closer to work.
 
