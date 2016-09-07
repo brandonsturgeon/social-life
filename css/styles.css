@@ -236,7 +236,7 @@ button {
 
 .share {
   z-index: 50;
-  height: 100px;
+  height: 130px;
   overflow: hidden;
   -webkit-transition: height 0s .5s;
   transition: height 0s .5s
@@ -251,7 +251,7 @@ button {
 
 .share ul {
   float: right;
-  margin: 0;
+  margin: 20px 0 0;
   clear: right;
   list-style: none;
 }
@@ -259,7 +259,7 @@ button {
 .share li {
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.4;
   opacity: 0;
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
@@ -300,13 +300,13 @@ button {
 }
 
 .share:hover {
-  height: 100px;
+  height: 130px;
   -webkit-transition: none;
   transition: none
 }
 
 .share:hover button {
-  color: #000
+  color: #000;
 }
 
 .share:hover li {
