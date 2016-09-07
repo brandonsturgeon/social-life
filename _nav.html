@@ -1,0 +1,7 @@
+<nav>
+    <ol>
+        {% for link in site.data.nav %}
+            <li><a href="{{ link.url }}" class="{% if link.url == page.url %}active{% else %}{% endif %} tooltip">{% if link.url == page.url %}•{% else %}◦{% endif %} <span>{{ link.title }}</span></a></li>
+        {% endfor %}
+    </ol>
+</nav>

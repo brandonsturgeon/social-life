@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  {% include _head.html %}
+  <body class="sans-serif" data-smooth-scroll="on">
+    <div class="wrapper">
+      {% include _nav.html %}
+      {% include _header.html %}
+      <main class="black-70">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+  {% include _footer.html %}
+</html>
