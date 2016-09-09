@@ -5,122 +5,122 @@ permalink: /today
 
 
 <div id="today" class="bg-blue-gray white">
-    <div class="pt6 ph3 ph4-m ph5-l tc">
-      <h1 class="f2 f-subheadline-ns measure lh-title fw9">Today</h1>
-    </div>
-    <div class="mw8 mw7-ns center pa3 ph5-ns">
-        <div class="mt1 mb3">
-            <article class="f4 f3-ns measure lh-copy fw3">
-                    {% for post in site.posts %}
-                        {% if post.title == "Today" %}
-                        {{ post.content }}
-                        {% endif %}
-                    {% endfor %}
-            </article>
-        </div>
-    </div>
+		<div class="pt6 ph3 ph4-m ph5-l tc">
+			<h1 class="f2 f-subheadline-ns measure lh-title fw9">Today</h1>
+		</div>
+		<div class="mw8 mw7-ns center pa3 ph5-ns">
+				<div class="mt1 mb3">
+						<article class="f4 f3-ns measure lh-copy fw3">
+										{% for post in site.posts %}
+												{% if post.title == "Today" %}
+												{{ post.content }}
+												{% endif %}
+										{% endfor %}
+						</article>
+				</div>
+		</div>
 </div>
 
 <div id="crime">
-    <div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-blue relative mb4" style="background:url({{ site.baseurl }}/images/GHETTO.jpg) no-repeat center right;background-size: cover; ">
-    <div class="overlay"></div>
-    <h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
-      <div class="absolute w-100 h-100 v-mid white subheadline" >
-        <h1 class="f2 f-subheadline-ns measure lh-title fw9">The Crime</h1>
-      </div>
-    </div>
-    <div class="mw8 mw7-ns center pa3 ph5-ns">
-        <div class="mt1 mb3">
-            {% for post in site.posts %}
-                {% if post.title == "Crime" %}
-                    <h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
+		<div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-blue relative mb4" style="background:url({{ site.baseurl }}/images/GHETTO.jpg) no-repeat center right;background-size: cover; ">
+		<div class="overlay"></div>
+		<h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
+			<div class="absolute w-100 h-100 v-mid white subheadline" >
+				<h1 class="f2 f-subheadline-ns measure lh-title fw9">The Crime</h1>
+			</div>
+		</div>
+		<div class="mw8 mw7-ns center pa3 ph5-ns">
+				<div class="mt1 mb3">
+						{% for post in site.posts %}
+								{% if post.title == "Crime" %}
+										<h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
 
-                    <article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
+										<article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
 
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+								{% endif %}
+						{% endfor %}
+				</div>
+		</div>
 </div>
 
 <div id="ghetto">
-    <div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-white relative mv4" style="background:url({{ site.baseurl }}/images/GHETTO.jpg) no-repeat center right;background-size: cover; ">
-    <div class="overlay"></div>
-    <h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
-      <div class="absolute w-100 h-100 v-mid white subheadline" >
-        <h1 class="f2 f-subheadline-ns measure lh-title fw9">The Ghetto</h1>
-      </div>
-    </div>
-    <div class="mw8 mw7-ns center pa3 ph5-ns">
-        <div class="mt1 mb3">
-            {% for post in site.posts %}
-                {% if post.title == "Ghetto" %}
-                    <h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
+		<div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-white relative mv4" style="background:url({{ site.baseurl }}/images/GHETTO.jpg) no-repeat center right;background-size: cover; ">
+		<div class="overlay"></div>
+		<h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
+			<div class="absolute w-100 h-100 v-mid white subheadline" >
+				<h1 class="f2 f-subheadline-ns measure lh-title fw9">The Ghetto</h1>
+			</div>
+		</div>
+		<div class="mw8 mw7-ns center pa3 ph5-ns">
+				<div class="mt1 mb3">
+						{% for post in site.posts %}
+								{% if post.title == "Ghetto" %}
+										<h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
 
-                    <article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+										<article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
+								{% endif %}
+						{% endfor %}
+				</div>
+		</div>
 </div>
 
 <div id="poverty">
-    <div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-white relative" style="background:url({{ site.baseurl }}/images/POVERTY.jpg) no-repeat center right;background-size: cover; overflow:hidden; ">
-        <div class="overlay"></div>
-      <h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
-      <div class="absolute w-100 h-100 v-mid white subheadline" >
-        <h1 class="f2 f-subheadline-ns measure lh-title fw9">The Poverty</h1>
-      </div>
-    </div>
-    <div class="mw8 mw7-ns center pa3 ph5-ns">
-        <div class="mt1 mb3">
-            {% for post in site.posts %}
-                {% if post.title == "Poverty" %}
-                    <h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
+		<div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-white relative" style="background:url({{ site.baseurl }}/images/POVERTY.jpg) no-repeat center right;background-size: cover; overflow:hidden; ">
+				<div class="overlay"></div>
+			<h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
+			<div class="absolute w-100 h-100 v-mid white subheadline" >
+				<h1 class="f2 f-subheadline-ns measure lh-title fw9">The Poverty</h1>
+			</div>
+		</div>
+		<div class="mw8 mw7-ns center pa3 ph5-ns">
+				<div class="mt1 mb3">
+						{% for post in site.posts %}
+								{% if post.title == "Poverty" %}
+										<h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
 
-                    <article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+										<article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
+								{% endif %}
+						{% endfor %}
+				</div>
+		</div>
 </div>
 
 <div id="apathy">
-    <div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-white relative mv4" style="background:url({{ site.baseurl }}/images/APATHY.jpg) no-repeat center right;background-size: cover; ">
-    <div class="overlay"></div>
-    <h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
-      <div class="absolute w-100 h-100 v-mid white subheadline" >
-        <h1 class="f2 f-subheadline-ns measure lh-title fw9">The Apathy</h1>
-      </div>
-    </div>
-    <div class="mw8 mw7-ns center pa3 ph5-ns">
-        <div class="mt1 mb3">
-            {% for post in site.posts %}
-                {% if post.title == "Apathy" %}
-                    <h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
+		<div class="pt3 pb6 ph3 ph4-m ph5-l tc white bg-white relative mv4" style="background:url({{ site.baseurl }}/images/APATHY.jpg) no-repeat center right;background-size: cover; ">
+		<div class="overlay"></div>
+		<h1 class="f2 f-subheadline-ns measure lh-title fw9 z-999">&nbsp;</h1>
+			<div class="absolute w-100 h-100 v-mid white subheadline" >
+				<h1 class="f2 f-subheadline-ns measure lh-title fw9">The Apathy</h1>
+			</div>
+		</div>
+		<div class="mw8 mw7-ns center pa3 ph5-ns">
+				<div class="mt1 mb3">
+						{% for post in site.posts %}
+								{% if post.title == "Apathy" %}
+										<h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
 
-                    <article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+										<article class="f4 f3-ns measure lh-copy fw3 pb5">{{ post.content }}</article>
+								{% endif %}
+						{% endfor %}
+				</div>
+		</div>
 </div>
 
 <div id="choice">
-    <div class="pt3 pb6 ph3 ph4-m ph5-l tc">
-      <h1 class="f2 f-subheadline-ns measure lh-title fw9">A Choice</h1>
-    </div>
-    <div class="mw8 mw7-ns center pa3 ph5-ns">
-        <div class="mt1 mb3">
-            {% for post in site.posts %}
-                {% if post.title == "Choice" %}
-                    <h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
+		<div class="pt3 pb6 ph3 ph4-m ph5-l tc">
+			<h1 class="f2 f-subheadline-ns measure lh-title fw9">A Choice</h1>
+		</div>
+		<div class="mw8 mw7-ns center pa3 ph5-ns">
+				<div class="mt1 mb3">
+						{% for post in site.posts %}
+								{% if post.title == "Choice" %}
+										<h2 class="mt0 f3 f2-ns mb4 lh-solid">{{ post.heading }}</h2>
 
-                    <article class="f4 f3-ns measure lh-copy fw3">{{ post.content }}</article>
+										<article class="f4 f3-ns measure lh-copy fw3">{{ post.content }}</article>
 
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
+								{% endif %}
+						{% endfor %}
+				</div>
+		</div>
 </div>
 
